@@ -3,14 +3,25 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.button {
+  border: none;
+  background-color: #FFFFFF;
+}
+
+button:hover {
+  transition: 0.1s;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 15px;
+}
+
 * {
   box-sizing: border-box;
   user-select: text;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+  background-color: black;
 }
 
 .hidden {
@@ -47,7 +58,7 @@ body {
 
 .crs {
   cursor: default;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   min-width: 25px;
 }
@@ -59,24 +70,22 @@ body {
 }
 
 .nav-item {
-  color: #FFFFFF;
+  color: #fffefe;
 }
 
 .nav-link, .ftr-link {
   padding: 5px;
   border-bottom: 1px solid #000000;
-  transition: all 0.2s;
+  transition: 0.2s;
 }
 
 .nav-link:hover, .ftr-link:hover {
   border-bottom: 1px solid #FFFFFF;
-  transition: all 0.2s;
+  transition: 0.2s;
+  border-radius: 5px;
+  background: linear-gradient(to right, #4458b8, #052baa);
 }
 
-.logo-img {
-  width: 64px;
-  height: 64px;
-}
 
 .header-title {
   cursor: default;
@@ -92,12 +101,11 @@ body {
 }
 
 .header-logo {
-  height: 64px;
-  width: 64px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .navigate {
